@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-image: url("https://images.inc.com/uploaded_files/image/1920x1080/getty_514914078_200013332000928076_167571.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    margin: 5% 0;
+}
+
+.main {
+    background-color: rgb(255, 0, 170);
+    width: 400px;
+    height: auto;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#input-btn {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+#btn {
+    background-color: green;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.list {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.list div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.list h3 {
+    width: 70%;
+    margin-right: 10px;
+    color: white;
+}
+
+.list button {
+    width: 20%;
+    padding: 5px;
+    background-color: green;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 3px;
+}
